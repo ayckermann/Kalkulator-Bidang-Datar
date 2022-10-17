@@ -36,11 +36,11 @@ public class Persegi extends Fragment {
 
                 //cek jika inputan 0
                 if(panjang1.isEmpty()){
-                    panjang.setError("ISI DATA NE COK MATAMU");
+                    panjang.setError("Input tidak boleh kosong");
                     panjang.requestFocus();
                 }
                 else if(lebar1.isEmpty()){
-                    lebar.setError("ISI DATA NE COK MATAMU");
+                    lebar.setError("Input tdak boleh kosong");
                     lebar.requestFocus();
                 }
                 else {

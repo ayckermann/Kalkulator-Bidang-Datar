@@ -33,7 +33,7 @@ public class Lingkaran extends Fragment {
 
                 //cek jika inputan 0
                 if(jari1.isEmpty()){
-                    jari.setError("ISI DATA NE COK MATAMU");
+                    jari.setError("Input tdak boleh kosong");
                     jari.requestFocus();
                 }
                 else {

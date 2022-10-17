@@ -34,11 +34,11 @@ public class Segitiga extends Fragment {
 
                 //cek jika inputan 0
                 if(tinggi1.isEmpty()){
-                    tinggi.setError("ISI DATA NE COK MATAMU");
+                    tinggi.setError("Input tdak boleh kosong");
                     tinggi.requestFocus();
                 }
                 else if(alas1.isEmpty()){
-                    alas.setError("ISI DATA NE COK MATAMU");
+                    alas.setError("Input tdak boleh kosong");
                     alas.requestFocus();
                 }
                 else{
