@@ -50,7 +50,7 @@ public class Segitiga extends Fragment {
                     Double luas = 0.5 * alas2 * tinggi2;
                     Double sisi = Math.sqrt(alas2*alas2 + tinggi2*tinggi2);
                     Double keliling = alas2 + tinggi2 + sisi;
-                    hasil.setText("Luas       = " + luas +"\nKeliling  = " + keliling);
+                    hasil.setText("LUAS = " + luas + "\n\n\nKELILING = " + keliling);
                 }
 
 

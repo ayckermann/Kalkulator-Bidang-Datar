@@ -38,7 +38,11 @@ public class MainActivity extends AppCompatActivity {
                 replaceFragment(new Lingkaran());
             }
         });
-        
+
+    }
+    protected void onStart() {
+        super.onStart();
+        getSupportFragmentManager().beginTransaction().replace(R.id.frameLayout, new Persegi()).commit();
     }
 
     private void replaceFragment(Fragment fragment) {

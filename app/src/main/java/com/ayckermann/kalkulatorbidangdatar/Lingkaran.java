@@ -43,7 +43,7 @@ public class Lingkaran extends Fragment {
                     //algortima hitung
                     Double luas = Math.PI*jari2*jari2;
                     Double keliling = 2 * Math.PI*jari2;
-                    hasil.setText("Luas       = " + luas + "\nKeliling  = " + keliling);
+                    hasil.setText("LUAS = " + luas + "\n\n\nKELILING = " + keliling);
                 }
 
             }

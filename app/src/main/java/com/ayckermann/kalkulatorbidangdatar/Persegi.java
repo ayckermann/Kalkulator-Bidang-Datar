@@ -51,7 +51,7 @@ public class Persegi extends Fragment {
                     //algortima hitung
                     Double luas = panjang2 * lebar2;
                     Double keliling = 2 * panjang2 + 2 * lebar2;
-                    hasil.setText("Luas       = " + luas + "\nKeliling  = " + keliling);
+                    hasil.setText("LUAS = " + luas + "\n\n\nKELILING = " + keliling);
                 }
 
             }
