@@ -5,6 +5,7 @@
     android:id="@+id/ConstraintLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     android:paddingLeft="20dp"
     android:paddingRight="20dp"
     tools:context=".Persegi">
@@ -29,6 +30,8 @@
         android:hint="Tinggi"
         android:inputType="numberDecimal"
         android:minHeight="48dp"
+        android:textColor="#000000"
+        android:textColorHint="#515050"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -43,6 +46,8 @@
         android:inputType="numberDecimal"
         android:minHeight="48dp"
 
+        android:textColor="#000000"
+        android:textColorHint="#515050"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/inputJari" />
